@@ -16,9 +16,17 @@ body {
   .sc-autocomplete-items {
     text-align: left;
     width: auto;
-    padding: 0 10px 0 0;
+    padding: 0 5px 0 0;
     min-width: 200px;
+    color: inherit;
     max-width: 500px;
+  }
+  a.sc-autocomplete-link {
+      color: inherit;
+  }
+  .sc-autocomplete-icon svg {
+      fill: #6264A8;
+      margin-top: 9px;
   }
   .silvercloud-acsearch-bar input {
     border-top: 0;
@@ -28,10 +36,16 @@ body {
     background: transparent;
     font-weight: bold;
     font-size: 1.25em;
-    width: calc(100% - 87px);
-    padding: 15px 0 15px 5px;
+    width: calc(100% - 40px);
+    padding: 10px 0 10px 5px;
   }
-
+  .silvercloud-acsearch-bar button {
+    background: transparent;
+    color: #6264A8;
+    border: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
 /* results list */
 
 .silvercloud-results-wrapper {

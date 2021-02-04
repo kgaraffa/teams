@@ -1,0 +1,26 @@
+.silvercloud-results-wrapper {
+    background: transparent;
+}
+.sc-results-toolbar {
+    background: transparent;
+    height: auto;
+    line-height: 1.25;
+    border: 1px solid;
+}
+.silvercloud-results-title {
+    line-height: 1.25;
+}
+.filter-icon svg, .sc-result-icon svg {
+    fill: inherit;
+}
+a.sc-result-item {
+    color: inherit;
+    border: 1px solid;
+}
+a.sc-result-item:hover {
+    background: transparent;
+    font-weight: bold;
+}
+.silvercloud-results-wrapper-item-body {
+    color: inherit;
+}

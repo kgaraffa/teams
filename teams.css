@@ -18,8 +18,8 @@ body {
     line-height: 1.25;
 }
 .filter-icon svg, .sc-result-icon svg {
-    fill: inherit;
-    color: inherit;
+    fill: #6264A8;
+    color: #6264A8;
 }
 a.sc-result-item {
     color: inherit;

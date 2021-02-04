@@ -1,3 +1,6 @@
+body {
+    color: #8A8988;
+}
 .silvercloud-results-wrapper {
     background: transparent;
 }
@@ -12,6 +15,7 @@
 }
 .filter-icon svg, .sc-result-icon svg {
     fill: inherit;
+    color: inherit;
 }
 a.sc-result-item {
     color: inherit;

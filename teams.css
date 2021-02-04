@@ -147,9 +147,10 @@ div.sc-filter-container {
 .sc-filter-container select {
     border: 1px sollid;
 }
-.sc-clear-filter, .silvercloud-back-button {
+.sc-clear-filter, .silvercloud-back-button, .sc-stepview-steppers button {
     color: #fff;
     background: #6264A8;
+    margin: 0;
     border: 0;
     border-radius: 0;
 }

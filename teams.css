@@ -16,12 +16,15 @@ body {
 }
 .silvercloud-results-title {
     line-height: 1.25;
+    padding: 10px;
 }
 .filter-icon svg, .sc-result-icon svg {
     fill: #6264A8;
     color: #6264A8;
 }
 a.sc-result-item {
+    padding: 5px;
+    margin: 5px 0;
     color: inherit;
     border: 1px solid;
 }

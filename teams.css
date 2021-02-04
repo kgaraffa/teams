@@ -22,12 +22,18 @@ body {
     max-width: 500px;
   }
   a.sc-autocomplete-link {
-      color: inherit;
+    color: inherit;
   }
   .sc-autocomplete-icon svg {
-      fill: #6264A8;
-      margin-top: 9px;
+    fill: #6264A8;
+    margin-top: 9px;
   }
+  .sc-autocomplete-items sc-highlight {
+    background-color: transparent !important;
+    font-weight: bold;
+    color: inherit !important;
+    padding: 0;
+}
   .silvercloud-acsearch-bar input {
     border-top: 0;
     border-left: 0;

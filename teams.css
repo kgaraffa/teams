@@ -34,9 +34,10 @@ body {
     border-right: 0;
     border-bottom: 3px solid #6264A8;
     background: transparent;
+    color: inherit;
     font-weight: bold;
     font-size: 1.25em;
-    width: calc(100% - 40px);
+    width: calc(100% - 45px);
     padding: 10px 0 10px 5px;
   }
   .silvercloud-acsearch-bar button {

@@ -141,3 +141,9 @@ div.sc-filter-container {
     border: 0;
     border-radius: 0;
 }
+sc-highlight {
+    background-color: rgb(98 100 168 / 60%);
+    padding: 0 5px;
+    color: #fff;
+    font-style: italic;
+}

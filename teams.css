@@ -1,162 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 body {
-    color: #8A8988;
+color: #8A8988;
 }
-
 /* search bar */
-
 .silvercloud-acsearch-bar{
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  .sc-autocomplete-items {
-    text-align: left;
-    width: auto;
-    padding: 0 5px 0 0;
-    min-width: 200px;
-    color: inherit;
-    max-width: 500px;
-  }
-  a.sc-autocomplete-link {
-    color: inherit;
-  }
-  .sc-autocomplete-icon svg {
-    fill: #6264A8;
-    margin-top: 9px;
-  }
-  .sc-autocomplete-items sc-highlight {
-    background-color: transparent !important;
-    font-weight: bold;
-    color: inherit !important;
-    padding: 0;
+text-align: center;
+max-width: 600px;
+margin: 0 auto;
 }
-  .silvercloud-acsearch-bar input {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 3px solid #6264A8;
-    background: transparent;
-    color: inherit;
-    font-weight: bold;
-    font-size: 1.25em;
-    width: calc(100% - 45px);
-    padding: 10px 0 10px 5px;
-  }
-  .silvercloud-acsearch-bar button {
-    background: transparent;
-    color: #6264A8;
-    border: 0;
-    font-size: 1em;
-    font-weight: bold;
-  }
-/* results list */
-
+.sc-autocomplete-items {
+text-align: left;
+width: auto;
+padding: 0 5px 0 0;
+min-width: 200px;
+color: inherit;
+max-width: 500px;
+}
+a.sc-autocomplete-link {
+color: inherit;
+}
+.sc-autocomplete-icon svg {
+fill: #6264A8;
+margin-top: 9px;
+}
+.sc-autocomplete-items sc-highlight {
+background-color: transparent !important;
+font-weight: bold;
+color: inherit !important;
+padding: 0;
+}
+.silvercloud-acsearch-bar input {
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 3px solid #6264A8;
+background: transparent;
+color: inherit;
+font-weight: bold;
+font-size: 1em;
+width: calc(100% - 45px);
+padding: 10px 0 10px 5px;
+}
+.silvercloud-acsearch-bar button {
+background: transparent;
+color: #6264A8;
+border: 0;
+font-size: 1em;
+font-weight: bold;
+}
+/* list view */
 .silvercloud-results-wrapper {
-    background: transparent;
+background: transparent;
 }
 .sc-results-toolbar, .result-title-bar {
-    background: transparent;
-    height: auto;
-    line-height: 1.25;
-    border: 0;
+background: transparent;
+height: auto;
+line-height: 1.25;
+border: 0;
 }
 .sc-print-icon {
-    display: none;
+display: none;
 }
 .silvercloud-results-title {
-    line-height: 1.25;
-    padding: 10px 0;
+line-height: 1.25;
+padding: 10px 0;
 }
 .sc-result-icon {
-    margin: 1px auto 0;
+margin: 1px auto 0;
 }
 .sc-result-icon svg {
-    max-width: 20px;
-    max-height: 20px;
+max-width: 20px;
+max-height: 20px;
 }
 .filter-icon svg, .sc-result-icon svg {
-    fill: #6264A8;
-    color: #6264A8;
+fill: #6264A8;
+color: #6264A8;
 }
 div.filter-icon {
-    padding: 0;
+padding: 0;
 }
 a.sc-result-item {
-    padding: 5px;
-    margin: 5px 0;
-    color: inherit;
-    border: 1px solid;
+padding: 5px;
+margin: 5px 0;
+color: inherit;
+border: 1px solid;
 }
 a.sc-result-item:hover {
-    background: transparent;
-    font-weight: bold;
+background: transparent;
+font-weight: bold;
 }
 .silvercloud-results-wrapper-item-body {
-    color: inherit;
+color: inherit;
 }
 .pagination {
-	position: relative;
-    z-index: 1;
-    margin: 10px 0;
-    font-size: .85em;
+position: relative;
+z-index: 1;
+margin: 10px 0;
+font-size: .85em;
 }
 .pagination > li > a, .pagination > li > span {
-	position: relative;
-	float: left;
-	padding: 6px 12px;
-	margin-left: -1px;
-	line-height: 1.42857143;
-	color: #6264A8;
-	text-decoration: none;
-	background-color: transparent;
-	border: 1px solid #6264A8
+position: relative;
+float: left;
+padding: 6px 12px;
+margin-left: -1px;
+line-height: 1.42857143;
+color: #6264A8;
+text-decoration: none;
+background-color: transparent;
+border: 1px solid #6264A8
 }
 .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
-	color: #6264A8;
-	cursor: not-allowed;
-	background-color: transparent;
-	border-color: #6264A8;
+color: #6264A8;
+cursor: not-allowed;
+background-color: transparent;
+border-color: #6264A8;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    z-index: 2;
-    color: #fff;
-    font-weight: bold;
-    background: #6264A8;
-    cursor: default;
-    border-color: #6264A8;
+z-index: 2;
+color: #fff;
+font-weight: bold;
+background: #6264A8;
+cursor: default;
+border-color: #6264A8;
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    z-index: 2;
-    color: #fff;
-    font-weight: bold;
-    background: #6264A8;
-    cursor: default;
-    border-color: #6264A8;
+z-index: 2;
+color: #fff;
+font-weight: bold;
+background: #6264A8;
+cursor: default;
+border-color: #6264A8;
 }
 div.sc-filter-container {
-    border: 0;
-    background: transparent;
+border: 0;
+background: transparent;
 }
 .sc-filter-container option, .sc-filter-container select, .sc-filter-container label {
-    color: inherit;
+color: inherit;
 }
 .sc-filter-container select {
-    border: 1px sollid;
+border: 1px sollid;
 }
 .sc-clear-filter, .silvercloud-back-button, .sc-stepview-steppers button {
-    color: #fff;
-    background: #6264A8;
-    margin: 0;
-    border: 0;
-    border-radius: 0;
+color: #fff;
+background: #6264A8;
+margin: 0;
+border: 0;
+border-radius: 0;
 }
 sc-highlight {
-    background-color: rgb(98 100 168 / 60%);
-    padding: 0 5px;
-    color: #fff;
-    font-style: italic;
+background-color: rgb(98 100 168 / 60%);
+padding: 0 5px;
+color: #fff;
+font-style: italic;
+}
+/* content view */
+.silvercloud-procedure div:nth-child(2) {
+border: 0 !important;
 }

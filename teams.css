@@ -8,11 +8,14 @@ body {
 .silvercloud-results-wrapper {
     background: transparent;
 }
-.sc-results-toolbar {
+.sc-results-toolbar, .result-title-bar {
     background: transparent;
     height: auto;
     line-height: 1.25;
     border: 0;
+}
+.sc-print-icon {
+    display: none;
 }
 .silvercloud-results-title {
     line-height: 1.25;
@@ -85,7 +88,7 @@ div.sc-filter-container {
 .sc-filter-container select {
     border: 1px sollid;
 }
-.sc-clear-filter {
+.sc-clear-filter, .silvercloud-back-button {
     color: #fff;
     background: #6264A8;
     border: 0;

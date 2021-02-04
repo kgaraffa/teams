@@ -82,6 +82,9 @@ body {
     fill: #6264A8;
     color: #6264A8;
 }
+div.filter-icon {
+    padding: 0;
+}
 a.sc-result-item {
     padding: 5px;
     margin: 5px 0;

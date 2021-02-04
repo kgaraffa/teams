@@ -72,7 +72,21 @@ a.sc-result-item:hover {
 	z-index: 2;
 	color: #000;
 	font-weight: bold;
-	cursor: default;
-	background-color: transparent;
+	cursor: default; 
 	border-color: #6264A8;
+}
+div.sc-filter-container {
+    border: 0;
+    background: transparent;
+}
+.sc-filter-container option, .sc-filter-container select, .sc-filter-container label {
+    color: inherit;
+}
+.sc-filter-container select {
+    border: 1px sollid;
+}
+.sc-clear-filter {
+    color: #fff;
+    background: #6264A8;
+    border: 0;
 }

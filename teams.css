@@ -5,6 +5,9 @@ font-family: 'Open Sans', sans-serif;
 body {
 color: #8A8988;
 }
+a {
+color: inherit;
+}
 /* search bar */
 .silvercloud-acsearch-bar{
 text-align: center;
@@ -144,7 +147,7 @@ color: inherit;
 .sc-filter-container select {
 border: 1px sollid;
 }
-.sc-clear-filter, .silvercloud-back-button, .sc-stepview-steppers button {
+.sc-clear-filter, .silvercloud-back-button, .sc-stepview-steppers button, .content-rating-form button {
 color: #fff;
 background: #6264A8;
 margin: 0;
@@ -158,6 +161,39 @@ color: #fff;
 font-style: italic;
 }
 /* content view */
+a.sc-btn {
+background: #6264A8;
+border: none;
+text-decoration: none !important;
+color: #fff !important;
+border-radius: 0;
+}
+.sc-procedure-tree .sc-stepview-steppers {
+justify-content: center;
+flex-wrap: wrap;
+}
+.sc-procedure-tree .sc-stepview-steppers button {
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #6264A8;
+max-width: 200px;
+font-size: 0.938em;
+margin: 0 5px 5px;
+padding: 8px 12px;
+}
+.sc-stepper-prev button:disabled, .sc-stepper-next button:disabled {
+background-color: #ddd;
+}
+#yes:hover, .sc-active#yes {
+background-color: #50C878;
+color: #fff;
+}
+#no:hover, .sc-active#no {
+background-color: #FF4C4C;
+color: #fff;
+}
 .silvercloud-procedure div:nth-child(2) {
 border: 0 !important;
 }
@@ -288,4 +324,50 @@ font-size: 0.750em;
 }
 .fr-view pre {
 word-wrap: normal;
+}
+.silvercloud-results-wrapper h1, .silvercloud-top-content-wrapper h1, .silvercloud-custom-content-wrapper h1, .silvercloud-embed-answer-wrapper h1 {
+background: transparent;
+padding: 0;
+color: #6264A8;
+font-size: 1.5em;
+}
+.silvercloud-results-wrapper h2, .silvercloud-top-content-wrapper h2, .silvercloud-custom-content-wrapper h2, .silvercloud-embed-answer-wrapper h2 {
+font-size: 1.375em;
+}
+.silvercloud-results-wrapper h3, .silvercloud-top-content-wrapper h3, .silvercloud-custom-content-wrapper h3, .silvercloud-embed-answer-wrapper h3 {
+font-size: 1.250em;
+}
+.silvercloud-results-wrapper h4, .silvercloud-top-content-wrapper h4, .silvercloud-custom-content-wrapper h4, .silvercloud-embed-answer-wrapper h4 {
+font-size: 1.125em;
+}
+@media (max-width: 992px) {
+div.sc-browse-left-col {
+display: block !important;
+}
+a.sc-result-item {
+font-size: .9em;
+}
+div.sc-browse-left-col {
+width: calc(20% - 5px) !important;
+}
+div.sc-browse-main-col {
+float: left;
+width: 100%;
+}
+a.sc-category-option {
+float: left;
+min-width: 0 !important;
+width: 100%;
+padding: 10px 0 !important;
+line-height: 1 !important;
+height: auto !important;
+min-height: 0;
+white-space: normal !important;
+font-size: .6em;
+}
+div.sc-browse-main-col {
+width: 80%;
+float: none;
+margin-left: 20% !important;
+}
 }

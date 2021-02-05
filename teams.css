@@ -183,6 +183,9 @@ font-size: 0.938em;
 margin: 0 5px 5px;
 padding: 8px 12px;
 }
+.sc-procedure-tree .sc-stepview-steppers button:hover, a.sc-btn:hover, .sc-clear-filter:hover, .silvercloud-back-button:hover, .sc-stepview-steppers button:hover, .content-rating-form button:hover {
+background: #464875;
+}
 .sc-stepper-prev button:disabled, .sc-stepper-next button:disabled {
 background-color: #ddd;
 }
@@ -209,7 +212,7 @@ font-weight: 600;
 }.sc-proc-base-link a {
 text-decoration: none;
 }
-.tree-node:hover, .sc-proc-base-link:hover, .sc-proc-base-link a:hover {
+.tree-node:hover, .sc-proc-base-link:hover, .sc-proc-base-link a:hover, .sc-step-side-link:hover {
 background-color: transparent;
 font-weight: 600;
 }

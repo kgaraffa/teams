@@ -59,6 +59,9 @@ border: 0;
 font-size: 1em;
 font-weight: 600;
 }
+.silvercloud-acsearch-bar button:hover {
+color: #464875;
+}
 /* list view */
 .silvercloud-results-wrapper {
 background: transparent;

@@ -64,7 +64,7 @@ color: #464875;
 }
 /* list view */
 .silvercloud-results-wrapper {
-margin: 20px 0 0;
+padding: 20px 0 0;
 background: transparent;
 }
 .sc-results-toolbar, .result-title-bar, .sc-toolbar, .sc-toolbar-tools, .silvercloud-results-title, .silvercloud-loading-toolbar {
@@ -72,6 +72,9 @@ background: transparent;
 height: auto;
 line-height: 1.25;
 border: 0;
+}
+.result-title-bar {
+padding: 0 0 20px;
 }
 .sc-print-icon {
 display: none;

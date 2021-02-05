@@ -206,8 +206,10 @@ text-decoration: underline;
 background-color: transparent;
 color: inherit;
 font-weight: 600;
+}.sc-proc-base-link a {
+text-decoration: none;
 }
-.tree-node:hover, .sc-proc-base-link:hover {
+.tree-node:hover, .sc-proc-base-link:hover, .sc-proc-base-link a:hover {
 background-color: transparent;
 font-weight: 600;
 }
@@ -306,6 +308,8 @@ max-width: 100%;
 text-decoration: none;
 line-height: 1.5;
 font-size: 0.938em;
+padding: 10px 0;
+overflow: hidden;
 }
 .sc-proc-base-link a {
 text-decoration: none;

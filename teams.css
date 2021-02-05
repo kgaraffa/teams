@@ -202,7 +202,7 @@ color: #6264A8;
 border-bottom: none;
 text-decoration: underline;
 }
-.step-inView-active {
+.step-inView-active, .step-inView-active .sc-step-side-link  {
 background-color: transparent;
 color: inherit;
 font-weight: bold;

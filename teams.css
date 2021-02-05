@@ -307,6 +307,10 @@ text-decoration: none;
 line-height: 1.25;
 font-size: 0.938em;
 }
+.sc-proc-collapse {
+border: 1px solid;
+background: transparent;
+}
 .sc-step-side-link {
 padding: 5px;
 font-size: 0.813em;
@@ -315,8 +319,8 @@ font-size: 0.813em;
 font-size: 1.250em;
 font-weight: normal;
 }
-#tree-root > ol > li > div > div.sc-step-side-link.ng-binding {
-font-weight: bold;
+.angular-ui-tree-nodes .angular-ui-tree-nodes {
+padding-left: 35px;
 }
 .sc-ellipsis {
 white-space: pre-wrap;

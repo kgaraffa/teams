@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 * {
 font-family: 'Open Sans', sans-serif;
 }
@@ -303,6 +303,8 @@ width: 25%;
 }
 .sc-proc-base-link {
 max-width: 100%;
+text-decoration: none;
+line-height: 1.25;
 font-size: 0.938em;
 }
 .sc-step-side-link {

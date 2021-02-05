@@ -212,14 +212,14 @@ text-decoration: underline;
 }
 .step-inView-active, .step-inView-active .sc-step-side-link  {
 background-color: transparent;
-color: inherit;
-font-weight: 600;
+color: #6264A8;
+
 }.sc-proc-base-link a {
 text-decoration: none;
 }
 .tree-node:hover, .sc-proc-base-link:hover, .sc-proc-base-link a:hover, .sc-step-side-link:hover {
 background-color: transparent;
-font-weight: 600;
+color: #6264A8;
 }
 a.sc-category-option {
 margin: 0 5px 5px 0;
